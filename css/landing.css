@@ -1,0 +1,252 @@
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    width: 80%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: auto 0;
+}
+
+.topnav a:hover {
+    color: #000000;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.devfolio a {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    outline: none;
+    text-decoration: none;
+    /* align-items: center; */
+}
+
+.devfolioBtn {
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 0;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 4rem;
+}
+
+.devfolioBtn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.fa-arrow-right {
+    opacity: 0.97;
+    background-color: #ffffff;
+    color: #000000;
+    height: 100%;
+    font-size: 1.5rem;
+    padding: 0.58rem;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.header {
+    display: flex;
+    margin: 5% 5% 0% 10%;
+}
+
+.dates P {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.landingHeading h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.landingHeading p {
+    color: #bdbdbd;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.landingHeading p #wait {
+    color: #bdbdbd;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.display img {
+    height: 100%;
+    width: 100%;
+}
+
+span {
+    color: grey;
+    font-size: 1rem;
+}
+
+#hack {
+    text-align: left;
+    /* margin-left: 0.5rem; */
+    width: fit-content !important;
+    /* margin-right: 40%; */
+    background-color: #ffffff !important;
+    padding: 0 !important;
+}
+
+.navLogo {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 30rem;
+    margin-left: 0.5rem;
+}
+
+.navLogo img {
+    width: 100%;
+    display: inline-block;
+}
+
+
+/* .navLogo h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navLogo h2 {
+    color: #ff004b;
+    font-size: 0.6rem;
+    line-height: 0;
+    text-align: right;
+} */
+
+@media (max-width: 990px) {
+    .landingHeading h1 {
+        font-size: 2rem;
+    }
+    .devfolioBtn {
+        font-size: 1rem;
+    }
+    .fa-arrow-right {
+        font-size: 1.2rem;
+    }
+    .header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .navLogo {
+        margin-right: 0;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: white;
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+        padding: 1.2rem;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin: 5% 5% 0% 10%;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .display img {
+        margin-top: 10%;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #hack {
+        margin-right: 0%;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: white;
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 1.2rem;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin: 5% 5% 0% 10%;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .display img {
+        margin-top: 10%;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #2c3454;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

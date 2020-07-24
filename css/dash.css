@@ -1,0 +1,25 @@
+.c1{
+    background-color: #ebebf1;
+    border-right: 0.1px solid #DDDDDD;
+}
+.c2{
+    background-color: #D7d7e4;
+    
+}
+.alt-grid [class*="col-"] {padding-left:0;padding-right:0}
+.alt-grid .row {margin-left:0;margin-right:0}
+
+/* container adjusted */
+.alt-grid .container {width:100%;max-width:none;padding:0;}
+
+.circle-rad{
+    /* border-radius: 8% !important; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+@media (max-width: 576px) { 
+    .c2{
+        display: none;
+    }
+ }
