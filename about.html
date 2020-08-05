@@ -14,6 +14,8 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css'>
     <link rel='stylesheet'
         href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
     <!-- Favicon -->
     <link rel="icon" href="/images/favicon.png">
     <link rel="stylesheet" href="/css/dash.css">
@@ -21,65 +23,110 @@
     <!-- <link rel="stylesheet" href="/css/responsive.css"> -->
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <!-- Icons -->
-    <link href="/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
-    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
-    <!-- Incind CSS -->
-    <link rel="stylesheet" href="/slider/css/incind.css">
+
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Hover Css -->
     <link rel="stylesheet" href="/css/hover-min.css">
 
 
     <title>Digibit.org</title>
+    <style>
+        .fade-up {
+            animation: fade-up 1.2s;
+        }
+
+
+        .wrap {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .button {
+
+            width: 140px;
+            height: 45px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            font-weight: 500;
+            color: #000;
+            background-color: rgba(255, 255, 255, 0.897);
+            border: none;
+            border-radius: 45px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .button:hover {
+            background-color: #2EE59D;
+            box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+            color: #fff;
+            transform: translateY(-7px);
+        }
+
+
+
+        html * {
+            box-sizing: inherit;
+        }
+
+        div {
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
-<?php include 'partials/_dbconnect.php' ?>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">Digibit</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
-                    </li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mx-3" href="/"><img src="/images/digibit logo.png" /></a>
 
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    <a class="btn btn-outline-success mx-2" href="login.php" type="submit">Login</a>
-                    <a class="btn btn-outline-success mx-1" href="signup.php" type="submit">Signup</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+            </ul>
 
 
-                </form>
-            </div>
+            <form method="GET" action="https://digibit2890.typeform.com/to/VWMlUvv2">
+                <div class="wrap">
+                    <button class="button mx-4" type="submit">Register</button>
+                </div>
+            </form>
+
         </div>
     </nav>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/slider-1.jpg" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/1600x900/?technology" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="images/slider-2.jpg" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/1600x900/?Coding" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="images/slider-3.jpg" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/1600x900/?programming" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -118,11 +165,12 @@
                                                 </div>
                                             </div>
                                             <div class="text-center mt-5 pb-3">
-                                                <h3>Ritwik Sinha</h3>
+                                                <h3 style="font-size: 28px;"><strong>Ritwik</strong></h3>
                                                 <div class="h5 font-weight-400">Mentor</div>
-                                                <small>Ritwik is a full stack developer and has worked
-                                                    with many organisation. Ritwik is also an
-                                                    active <br> member of Indian startup ecosystem with a deep
+                                                <small style="font-size: 17px;">Ritwik is a full stack developer and has
+                                                    worked
+                                                    with many organisation.
+                                                    <br> member of Indian startup ecosystem with a deep
                                                     interest in entrepreneurship.
                                                 </small>
                                             </div>
@@ -146,13 +194,13 @@
                                                 </div>
                                             </div>
                                             <div class="text-center mt-5 pb-3">
-                                                <h3>Rishab Sharma</h3>
+                                                <h3 style="font-size: 28px;"><strong>Rishab</strong></h3>
+
                                                 <div class="h5 font-weight-400">Mentor</div>
-                                                <small>Rishab is a Technology lover and Start-Up enthusiast. He aims
+                                                <small style="font-size: 17px;">Rishab is a Technology lover and
+                                                    Start-Up enthusiast. He aims
                                                     to provide innovative and
-                                                    sustainable tech solutions to complex problems. He co-founded
-                                                    DigiBit with the same
-                                                    vision.
+                                                    sustainable tech solutions to complex problems.
                                                 </small>
                                             </div>
                                         </div>
@@ -175,13 +223,14 @@
                                                 </div>
                                             </div>
                                             <div class="text-center mt-5 pb-3">
-                                                <h3>Devansh Pundir</h3>
+                                                <h3 style="font-size: 28px;"><strong>Devansh</strong></h3>
+
                                                 <div class="h5 font-weight-400">Mentor</div>
-                                                <small class="mt-0 pt-0">Devansh fascination towards technology led
+                                                <small class="mt-0 pt-0" style="font-size: 17px;">Devansh fascination
+                                                    towards technology led
                                                     him to launch DigiBit
                                                     for young engineers.He believes that the even of largest of
-                                                    problems can be solved by right
-                                                    use of technology.
+                                                    problems can be solved.
                                                 </small>
                                             </div>
                                         </div>
@@ -204,11 +253,13 @@
                                                 </div>
                                             </div>
                                             <div class="text-center mt-5 pb-3">
-                                                <h3>Rahul Chauchan</h3>
-                                                <div class="h5 font-weight-400">Marketing and Communication Manager
+                                                <h3 style="font-size: 28px;"><strong>Rahul</strong></h3>
+
+                                                <div class="h5 font-weight-400">Mentor
                                                 </div>
                                                 <div>
-                                                    <small>Rahul has about 2 years of experience in
+                                                    <small style="font-size: 17px;">Rahul has about 2 years of
+                                                        experience in
                                                         Digital Marketing.He was earlier
                                                         associated with BW Businessworld Media Pvt. Ltd. And has
                                                         worked closely in the startup
@@ -235,9 +286,11 @@
                                                 </div>
                                             </div>
                                             <div class="text-center mt-5 pb-3">
-                                                <h3>Himanshu Singh</h3>
-                                                <div class="h5 font-weight-400">Design Thinking Manager</div>
-                                                <small>Himanshu is visual artist and a web designer. He has worked
+                                                <h3 style="font-size: 28px;"><strong>Shashank</strong></h3>
+
+                                                <div class="h5 font-weight-400">Mentor</div>
+                                                <small style="font-size: 17px;">Shashank is visual artist and a web
+                                                    designer. He has worked
                                                     in-house and remotely on many
                                                     project. User Experience and problem solving are central
                                                     everything he do.
@@ -263,9 +316,11 @@
                                                 </div>
                                             </div>
                                             <div class="text-center mt-5 pb-3">
-                                                <h3>Kunal Ghosh</h3>
-                                                <div class="h5 font-weight-400">Data Engineer</div>
-                                                <small>Kunal is a Community person and also holds Bachelor's degree
+                                                <h3 style="font-size: 28px;"><strong>Aman</strong></h3>
+
+                                                <div class="h5 font-weight-400">Mentor</div>
+                                                <small style="font-size: 17px;">Aman is a Community person and also
+                                                    holds Bachelor's degree
                                                     in Computer Science.
                                                     With extensive experience in Data Science, Cloud and Analytics
                                                     he belive in producing good ROI
@@ -293,10 +348,12 @@
                                                 </div>
                                             </div>
                                             <div class="text-center mt-5 pb-3">
-                                                <h3>Pranjali Singh</h3>
-                                                <div class="h5 font-weight-400">Graphic Designer</div>
+                                                <h3 style="font-size: 28px;"><strong>Ankit</strong></h3>
+
+                                                <div class="h5 font-weight-400">Mentor</div>
                                                 <div>
-                                                    <small>Pranjali is a graphic designer, caricature and sketch
+                                                    <small style="font-size: 17px;">Ankit is a graphic designer,
+                                                        caricature and sketch
                                                         artist. She is proficient in
                                                         Graphic design, interactive design &amp; illustration.She
                                                         has successfully managed and
@@ -314,44 +371,15 @@
         </div>
     </div>
 
+    <footer class="container-fluid bg-dark my-0 py-3 text-light">
+        <p class="mb-0 text-center">&copy; 2020-2021 digibit.xyz</p>
+        <p class="mb-0 text-center">
+            <a href="#">Back to top |</a>
+            <a href="#">Privacy |</a>
+            <a href="#">Terms</a>
+        </p>
 
-
-
-    <footer style="background: #40e0d0;">
-        <div class="container py-5">
-            <div class="row py-3">
-                <div class="col-md-4 mb-3">
-                    <img class="w-30 mb-4 footer-logo" src="logo.jpg" alt="">
-
-                </div>
-                <div class="col-md-8">
-                    <h2><b>DIGIBIT</b></h2>
-                    <small style="font-size: 15px; font-family: Arial, Helvetica, sans-serif;">By providing a space for
-                        the next generation of explorers to discover, create, and work
-                        together to achieve collective goals and pursue shared ambitions, Digibit provides fertile
-                        ground for networking and teamwork. We work on solving world’s greatest problems through
-                        technology driven community of entrepreneurs, student and government. Digibit will be an
-                        educational experience for participants of all levels. We have many projects from which
-                        participants can learn entirely
-                        new skills or platforms, and many mentors who will be able to share their knowledge acquired
-                        with years of experience.
-                        <br>
-                        <br>
-                        info@incubateind.com
-                    </small>
-                </div>
-            </div>
-            <hr>
-            <div class="row text-center">
-                <div class="col-sm-12">
-                    2020 © All rights reserved by Digibit
-                </div>
-            </div>
-        </div>
     </footer>
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
