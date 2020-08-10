@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .sponsorBtn {
@@ -24,7 +24,7 @@ body {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-54%, -70%);
-          transform: translate(-54%, -70%);
+  transform: translate(-54%, -70%);
   width: 11rem;
   height: 2.5rem;
   border: solid 2px #707070;
@@ -35,7 +35,7 @@ body {
   width: 90%;
   min-height: 15rem;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
-          box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 1rem;
   text-align: center;
   margin: 1rem auto;
@@ -67,14 +67,14 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .titlePartnerImg div {
@@ -100,8 +100,8 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .giftingPartner img {
@@ -115,14 +115,14 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .communityPartner img {
@@ -136,14 +136,14 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .goldPartner div {
@@ -165,14 +165,14 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .silverPartner div {
@@ -190,14 +190,14 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .bronzePartner div {
@@ -223,11 +223,11 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .mediaPartner div {
@@ -252,8 +252,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-color: #ffffff;
   border-radius: 1rem;
   width: 18rem;
@@ -269,7 +269,7 @@ body {
   width: 100%;
   height: 12rem;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
@@ -281,18 +281,18 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: absolute;
   bottom: -10%;
   right: 5%;
   color: #0077b5;
   background-color: #ffffff;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   border-radius: 100%;
   z-index: 1000;
 }
@@ -314,13 +314,13 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .mentorCard .mentorText .skills h1 {
@@ -352,8 +352,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 1rem auto;
 }
 
@@ -370,7 +370,7 @@ body {
   margin: 0 auto !important;
   border-radius: 1.5rem;
   -webkit-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
-          box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
 }
 
 .teamCard .teamText {
@@ -404,11 +404,11 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .teamCard .teamLinks a {
@@ -424,11 +424,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 2rem;
   height: 2rem;
   background-color: #0077b5;
@@ -437,8 +437,10 @@ body {
 
 .teamCard .teamLinks a .teamLinkedin img {
   width: 60%;
-  -webkit-filter: invert(100%) sepia(6%) saturate(290%) hue-rotate(268deg) brightness(112%) contrast(100%);
-          filter: invert(100%) sepia(6%) saturate(290%) hue-rotate(268deg) brightness(112%) contrast(100%);
+  -webkit-filter: invert(100%) sepia(6%) saturate(290%) hue-rotate(268deg)
+    brightness(112%) contrast(100%);
+  filter: invert(100%) sepia(6%) saturate(290%) hue-rotate(268deg)
+    brightness(112%) contrast(100%);
 }
 
 .teamCard .teamLinks a .teamGithub {
@@ -447,11 +449,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 2rem;
   height: 2rem;
   background-color: #000000;
@@ -460,8 +462,10 @@ body {
 
 .teamCard .teamLinks a .teamGithub img {
   width: 60%;
-  -webkit-filter: invert(100%) sepia(6%) saturate(290%) hue-rotate(268deg) brightness(112%) contrast(100%);
-          filter: invert(100%) sepia(6%) saturate(290%) hue-rotate(268deg) brightness(112%) contrast(100%);
+  -webkit-filter: invert(100%) sepia(6%) saturate(290%) hue-rotate(268deg)
+    brightness(112%) contrast(100%);
+  filter: invert(100%) sepia(6%) saturate(290%) hue-rotate(268deg)
+    brightness(112%) contrast(100%);
 }
 
 .chennai {
@@ -509,14 +513,14 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 20vh;
 }
 
@@ -532,41 +536,53 @@ body {
 }
 
 .footer .links a #mail {
-  -webkit-filter: invert(69%) sepia(81%) saturate(3714%) hue-rotate(318deg) brightness(97%) contrast(117%);
-          filter: invert(69%) sepia(81%) saturate(3714%) hue-rotate(318deg) brightness(97%) contrast(117%);
+  -webkit-filter: invert(69%) sepia(81%) saturate(3714%) hue-rotate(318deg)
+    brightness(97%) contrast(117%);
+  filter: invert(69%) sepia(81%) saturate(3714%) hue-rotate(318deg)
+    brightness(97%) contrast(117%);
 }
 
 .footer .links a #linked {
-  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
-          filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
+  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg)
+    brightness(105%) contrast(102%);
+  filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg)
+    brightness(105%) contrast(102%);
 }
 
 .footer .links a #insta {
-  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
-          filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
+  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg)
+    brightness(105%) contrast(102%);
+  filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg)
+    brightness(105%) contrast(102%);
 }
 
 .footer .links a #facebook {
-  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
-          filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
+  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg)
+    brightness(105%) contrast(102%);
+  filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg)
+    brightness(105%) contrast(102%);
 }
 
 .footer .links a #twitter {
-  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
-          filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
+  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg)
+    brightness(105%) contrast(102%);
+  filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg)
+    brightness(105%) contrast(102%);
 }
 
 .footer .links a #git {
-  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
-          filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
+  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg)
+    brightness(105%) contrast(102%);
+  filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg)
+    brightness(105%) contrast(102%);
 }
 
 @media (max-width: 900px) {
   .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -574,8 +590,8 @@ body {
   .giftingPartner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .giftingPartner img {
     max-width: 60% !important;
@@ -588,8 +604,8 @@ body {
   .goldPartner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .goldPartner div {
     width: 80%;
@@ -603,8 +619,8 @@ body {
   .silverPartner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .silverPartner div {
     width: 80%;
@@ -619,8 +635,8 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .bronzePartner div {
     width: 80%;
@@ -637,8 +653,8 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .mediaPartner div {
     width: 80%;
@@ -655,8 +671,8 @@ body {
   .titlePartnerImg {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .titlePartnerImg div {
     width: 80%;
